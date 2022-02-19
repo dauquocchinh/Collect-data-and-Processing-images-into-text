@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.container {
+    background: linear-gradient(0deg, #aafcf9, white);
+    width: 100%;
+    margin-top: 50px;
+    height: 90vh;
+    overflow: hidden;
+    text-align: center;
+}
+.container .heading {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(3, 0, 161);
+}
+input[type="text"] {
+    padding: 1rem 2rem;
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid #a5bec2;
+}
+input[type="text"]:focus-visible {
+    border: 2px solid #429ea8;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+button {
+    background-color: #49e25c;
+    padding: 0.6rem 2rem;
+    color: #FFF;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 10px 35px -5px #7aff9d;
+}
+button:hover {
+    background-color: #429ea8;
+    transition: .2s linear;
+    cursor: pointer;
+}
+h2.footer__content {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: red;
+}
+.input_link {
+    margin-bottom: 2rem;
+}
+h1.footer__heading {
+    color: #0c2c6e;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+/* content */
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+h3.heading_content {
+    margin: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.box_container .heading {
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 5%);
+    color: #216484;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.box_item {
+    width: calc(25% - 20px);
+    border: 2px solid #69adbc;
+    margin: 10px;
+    background-color: #f4f4f4;
+    height: 15.5rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.box_heading {
+    padding: 1rem;
+    font-size: 1rem;
+    background: burlywood;
+    color: darkblue;
+}
+.box_company {
+    padding: 0.5rem;    
+    color: #333;
+    background: #e0e0e0;
+}
+.box_content {
+    overflow: auto;
+    height: 8.3rem;
+    padding: 0rem 1rem;
+    box-sizing: border-box;
+}
+.box_container .footer {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.box_container .footer__heading {
+    font-size: 1.5rem;
+    margin: 2rem 0 0;
+}
+.box_container .footer__content {
+    margin: 0.8rem;
+    font-size: 1.2rem;
+}
+h4.heading_content {
+    padding: 1rem;
+    background: #859ec4;
+    width: 20%;
+    text-align: center;
+    color: #fff;
+}
+.box_past .box .box_item {
+    width: calc(20% - 20px);
+}
+.box_past .box .box_content {
+    font-size: .7rem;
+}
+.box_past .box .box_heading {
+    font-size: .8rem;
+}
+.box_past .box .box_company {
+    font-size: .8rem;
+}
+.box_heading h3 {
+    font-size: .8rem;
+    padding-top: 0.2rem;
+    color: #102633;
+    margin: 0;
+}
